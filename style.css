@@ -1,0 +1,24 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+@import url(https://fonts.googleapis.com/css?family=Tourney:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body{
+   font-family: 'Touney';
+   background-color: rgb(0, 0, 0);
+}
+
+.card{
+   box-shadow: 1px 1px 10px rgb(6, 248, 135);
+   animation: pisca 2s alternate infinite;
+}
+@keyframes pisca{
+   from{
+      box-shadow: 1px 1px 10px rgb(6, 248, 135);
+   }
+   to{
+      box-shadow: 1px 1px 10px #000;
+   }
+}
